@@ -1,6 +1,6 @@
 # gRPC fun
 
-This project demonstrates a simple gRPC service (`GrpcService`) and a corresponding gRPC client (`GrpcClient`) implemented in C#** with .NET 8.0. The service runs in a Docker container and exposes a `Greeter` endpoint that responds to `SayHello` requests with a greeting message. The client sends requests to the service and displays the response.
+This project demonstrates a simple gRPC service (`GrpcService`) and a corresponding gRPC client (`GrpcClient`). The service runs in a Docker container and exposes a `Greeter` endpoint that responds to `SayHello` requests with a greeting message. The client sends requests to the service and displays the response.
 
 ### Components
 - **GrpcService**: A gRPC server defined by the `greet.proto` file, running in a Docker container. It listens on port `50051` and implements a `Greeter` service with a `SayHello` method that returns a greeting: `Hello, <name>`.
